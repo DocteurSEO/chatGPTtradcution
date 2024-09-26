@@ -1,6 +1,6 @@
 let apiKey = localStorage.getItem('groqApiKey') || '';
 let isEnglishTranslation = true; // Nouvelle variable pour suivre le mode
-let ai = 'Llama 3.1 70b Versatile';
+let ai = 'llama-3.1-8b-instant';
 
 const modelSelector = document.getElementById('modelSelector');
 modelSelector.addEventListener('change', () => {
